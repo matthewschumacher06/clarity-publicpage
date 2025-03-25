@@ -10,8 +10,7 @@ const Background = () => {
           background: 'radial-gradient(circle at 15% 20%, rgba(10, 169, 159, 0.5) 0%, rgba(10, 169, 159, 0.15) 30%, rgba(0, 0, 0, 0) 70%)',
           pointerEvents: 'none',
           filter: 'blur(30px)',
-          animation: 'subtleGradientMotion 15s infinite ease-in-out',
-          backgroundSize: '400% 400%',
+          backgroundSize: '100% 100%',
           mixBlendMode: 'screen',
           opacity: '0.8',
         }}
@@ -25,8 +24,7 @@ const Background = () => {
           background: 'radial-gradient(circle at 85% 80%, rgba(10, 169, 159, 0.4) 0%, rgba(10, 169, 159, 0.1) 40%, rgba(0, 0, 0, 0) 70%)',
           pointerEvents: 'none',
           filter: 'blur(35px)',
-          animation: 'subtleGradientMotion 20s infinite ease-in-out reverse',
-          backgroundSize: '300% 300%',
+          backgroundSize: '100% 100%',
           mixBlendMode: 'screen',
           opacity: '0.7',
         }}
